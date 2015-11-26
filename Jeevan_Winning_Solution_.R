@@ -38,5 +38,5 @@ ans[ans=="1"]="Not Happy"
 ans[ans=="2"]="Pretty Happy"
 ans[ans=="3"]="Very Happy"
 
-submission = data.frame(ID = ID,Happy = ans)
+submission = data.frame(ID = ID,Happy = ans) 
 write.csv(submission,"submissionFinal.csv",row.names = FALSE)
